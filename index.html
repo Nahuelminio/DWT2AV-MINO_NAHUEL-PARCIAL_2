@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>West Smoke</title>
+  </head>
+  <body>
+    <header class="col-12">
+      <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="img/logo.png" class="logo" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                West Smoke
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#catalogo">Catalogo</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    usuario
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li>
+                      <a class="dropdown-item" href="#">Iniciar Sesion</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Registrarse</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-danger" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div
+        id="carouselExampleControls"
+        class="carousel slid mt-3"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/BANNER/BANNER1.png"
+              class="d-block w-100"
+              alt="banner"
+            />
+          </div>
+          <div class="carousel-item active">
+            <img
+              src="img/BANNER/BANNER2.png"
+              class="d-block w-100"
+              alt="banner"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/BANNER/BANNER3.png"
+              class="d-block w-100"
+              alt="banner"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <h1 class="text-center mt-5 mb-3">
+        Cigarrillos Electrónicos - West Smoke
+      </h1>
+      <section>
+        <div class="container-sm text-center">
+          <p class="form-control-lg p-introduccion">
+            <strong>West Smoke</strong> es una tienda especializada en
+            cigarrillos electrónicos que tiene como misión principal ayudar a
+            las personas <strong>mayores de 18 años </strong>a dejar de fumar
+            tabaco. Ubicada en un entorno acogedor, esta tienda se compromete a
+            brindar una alternativa segura y efectiva para aquellos que buscan
+            abandonar el hábito de fumar tradicional.
+          </p>
+        </div>
+      </section>
+      <h2 class="text-center mt-5 mb-4">Pods Descartables</h2>
+      <section id="catalogo" class="container-md">
+        <div class="row gx-3">
+          <div class="card cardStyle mt-3 col-sm-2" style="width: 15rem">
+            <img
+              src="img/elfbar/sakuraGrape.png"
+              class="card-img-top mx-auto mt-3 mb-2"
+              alt="pod Descartable"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center mb-1">ELFBAR 4000</h5>
+              <p class="card-text text-center precio mb-1">$8000</p>
+              <p class="card-text mt-0">Descartable de 4000 aspiradas</p>
+              <div class="container-fluid mx-auto">
+                <!-- Modal Comprar-->
+                <button
+                  type="button"
+                  style="width: 12em"
+                  class="btn btn-sm btn-outline-success"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Comprar
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title fs-5" id="staticBackdropLabel">
+                          ELFBAR 4000
+                        </h2>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div
+                          class="card mx-auto mt-1 mb-1 col-sm-2"
+                          style="width: 12rem"
+                        >
+                          <img
+                            src="img/elfbar/sakuraGrape.png"
+                            class="card-img-top mx-auto mt-3 mb-2"
+                            alt="pod Descartable"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center mb-1">
+                              ELFBAR 4000
+                            </h5>
+                            <p class="card-text text-center precio mb-1">
+                              $8000
+                            </p>
+                            <p class="card-text text-center mt-0">
+                              Descartable de 4000 aspiradas
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-info">
+                          Agregar al carrito
+                        </button>
+                        <button type="button" class="btn btn-outline-danger">
+                          Comprar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Fin modal Compror-->
+
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  style="width: 12em"
+                  class="btn btn-sm btn-outline-primary mt-2"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Agregar al carrito
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">
+                          Producto Agregado con Exito!
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div
+                          class="card mx-auto mt-1 mb-1 col-sm-2"
+                          style="width: 12rem"
+                        >
+                          <img
+                            src="img/elfbar/sakuraGrape.png"
+                            class="card-img-top mx-auto mt-3 mb-2"
+                            alt="pod Descartable"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center mb-1">
+                              ELFBAR 4000
+                            </h5>
+                            <p class="card-text text-center precio mb-1">
+                              $8000
+                            </p>
+                            <p class="card-text text-center mt-0">
+                              Descartable de 4000 aspiradas
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Seguir Buscando
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Ir al carrito
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card cardStyle mt-3 col-sm-2" style="width: 15rem">
+            <img
+              src="img/elfbar/watermelon.png"
+              class="card-img-top mx-auto mt-3 mb-2"
+              alt="pod Descartable"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center mb-1">ELFBAR 4000</h5>
+              <p class="card-text text-center precio mb-1">$8000</p>
+              <p class="card-text mt-0">Descartable de 4000 aspiradas</p>
+              <div class="container-fluid mx-auto">
+                <button
+                  type="button"
+                  style="width: 12em"
+                  class="btn btn-sm btn-outline-success"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop1"
+                >
+                  Comprar
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop1"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title fs-5" id="staticBackdropLabel">
+                          ELFBAR 4000
+                        </h2>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div
+                          class="card mx-auto mt-1 mb-1 col-sm-2"
+                          style="width: 12rem"
+                        >
+                          <img
+                            src="img/elfbar/watermelon.png"
+                            class="card-img-top mx-auto mt-3 mb-2"
+                            alt="pod Descartable"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center mb-1">
+                              ELFBAR 4000
+                            </h5>
+                            <p class="card-text text-center precio mb-1">
+                              $8000
+                            </p>
+                            <p class="card-text text-center mt-0">
+                              Descartable de 4000 aspiradas
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-info">
+                          Agregar al carrito
+                        </button>
+                        <button type="button" class="btn btn-outline-danger">
+                          Comprar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Fin modal Compror-->
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  style="width: 12em"
+                  class="btn btn-sm btn-outline-primary mt-2"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal1"
+                >
+                  Agregar al carrito
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal1"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">
+                          Producto Agregado con Exito!
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div
+                          class="card mx-auto mt-1 mb-1 col-sm-2"
+                          style="width: 12rem"
+                        >
+                          <img
+                            src="img/elfbar/watermelon.png"
+                            class="card-img-top mx-auto mt-3 mb-2"
+                            alt="pod Descartable"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center mb-1">
+                              ELFBAR 4000
+                            </h5>
+                            <p class="card-text text-center precio mb-1">
+                              $8000
+                            </p>
+                            <p class="card-text text-center mt-0">
+                              Descartable de 4000 aspiradas
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Seguir Buscando
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Ir al carrito
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card cardStyle mt-3 col-sm-2" style="width: 15rem">
+            <img
+              src="img/elfbar/blueberry.png"
+              class="card-img-top mx-auto mt-3 mb-2"
+              alt="pod Descartable"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center mb-1">ELFBAR 4000</h5>
+              <p class="card-text text-center precio mb-1">$8000</p>
+              <p class="card-text mt-0">Descartable de 4000 aspiradas</p>
+              <div class="container-fluid mx-auto">
+                <button
+                  type="button"
+                  style="width: 12em"
+                  class="btn btn-sm btn-outline-success"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop2"
+                >
+                  Comprar
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop2"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title fs-5" id="staticBackdropLabel">
+                          ELFBAR 4000
+                        </h2>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div
+                          class="card mx-auto mt-1 mb-1 col-sm-2"
+                          style="width: 12rem"
+                        >
+                          <img
+                            src="img/elfbar/blueberry.png"
+                            class="card-img-top mx-auto mt-3 mb-2"
+                            alt="pod Descartable"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center mb-1">
+                              ELFBAR 4000
+                            </h5>
+                            <p class="card-text text-center precio mb-1">
+                              $8000
+                            </p>
+                            <p class="card-text text-center mt-0">
+                              Descartable de 4000 aspiradas
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-info">
+                          Agregar al carrito
+                        </button>
+                        <button type="button" class="btn btn-outline-danger">
+                          Comprar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Fin modal Compror-->
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  style="width: 12em"
+                  class="btn btn-sm btn-outline-primary mt-2"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal2"
+                >
+                  Agregar al carrito
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal2"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">
+                          Producto Agregado con Exito!
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div
+                          class="card mx-auto mt-1 mb-1 col-sm-2"
+                          style="width: 12rem"
+                        >
+                          <img
+                            src="img/elfbar/blueRazz.png"
+                            class="card-img-top mx-auto mt-3 mb-2"
+                            alt="pod Descartable"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center mb-1">
+                              ELFBAR 4000
+                            </h5>
+                            <p class="card-text text-center precio mb-1">
+                              $8000
+                            </p>
+                            <p class="card-text text-center mt-0">
+                              Descartable de 4000 aspiradas
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Seguir Buscando
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Ir al carrito
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card cardStyle mt-3 col-sm-2" style="width: 15rem">
+            <img
+              src="img/elfbar/redMojito.png"
+              class="card-img-top mx-auto mt-3 mb-2"
+              alt="pod Descartable"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center mb-1">ELFBAR 4000</h5>
+              <p class="card-text text-center precio mb-1">$8000</p>
+              <p class="card-text mt-0">Descartable de 4000 aspiradas</p>
+              <div class="container-fluid mx-auto">
+                <button
+                  type="button"
+                  style="width: 12em"
+                  class="btn btn-sm btn-outline-success"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop4"
+                >
+                  Comprar
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop4"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title fs-5" id="staticBackdropLabel">
+                          ELFBAR 4000
+                        </h2>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div
+                          class="card mx-auto mt-1 mb-1 col-sm-2"
+                          style="width: 12rem"
+                        >
+                          <img
+                            src="img/elfbar/redMojito.png"
+                            class="card-img-top mx-auto mt-3 mb-2"
+                            alt="pod Descartable"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center mb-1">
+                              ELFBAR 4000
+                            </h5>
+                            <p class="card-text text-center precio mb-1">
+                              $8000
+                            </p>
+                            <p class="card-text text-center mt-0">
+                              Descartable de 4000 aspiradas
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-info">
+                          Agregar al carrito
+                        </button>
+                        <button type="button" class="btn btn-outline-danger">
+                          Comprar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Fin modal Compror-->
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  style="width: 12em"
+                  class="btn btn-sm btn-outline-primary mt-2"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal3"
+                >
+                  Agregar al carrito
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal3"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">
+                          Producto Agregado con Exito!
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div
+                          class="card mx-auto mt-1 mb-1 col-sm-2"
+                          style="width: 12rem"
+                        >
+                          <img
+                            src="img/elfbar/redMojito.png"
+                            class="card-img-top mx-auto mt-3 mb-2"
+                            alt="pod Descartable"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center mb-1">
+                              ELFBAR 4000
+                            </h5>
+                            <p class="card-text text-center precio mb-1">
+                              $8000
+                            </p>
+                            <p class="card-text text-center mt-0">
+                              Descartable de 4000 aspiradas
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Seguir Buscando
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Ir al carrito
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card cardStyle mt-3 col-sm-2" style="width: 15rem">
+            <img
+              src="img/elfbar/tripleBerry.png"
+              class="card-img-top mx-auto mt-3 mb-2"
+              alt="pod Descartable"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center mb-1">ELFBAR 4000</h5>
+              <p class="card-text text-center precio mb-1">$8000</p>
+              <p class="card-text mt-0">Descartable de 4000 aspiradas</p>
+              <div class="container-fluid mx-auto">
+                <button
+                  type="button"
+                  style="width: 12em"
+                  class="btn btn-sm btn-outline-success"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop5"
+                >
+                  Comprar
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="staticBackdrop5"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title fs-5" id="staticBackdropLabel">
+                          ELFBAR 4000
+                        </h2>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div
+                          class="card mx-auto mt-1 mb-1 col-sm-2"
+                          style="width: 12rem"
+                        >
+                          <img
+                            src="img/elfbar/tripleBerry.png"
+                            class="card-img-top mx-auto mt-3 mb-2"
+                            alt="pod Descartable"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center mb-1">
+                              ELFBAR 4000
+                            </h5>
+                            <p class="card-text text-center precio mb-1">
+                              $8000
+                            </p>
+                            <p class="card-text text-center mt-0">
+                              Descartable de 4000 aspiradas
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-info">
+                          Agregar al carrito
+                        </button>
+                        <button type="button" class="btn btn-outline-danger">
+                          Comprar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Fin modal Compror-->
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  style="width: 12em"
+                  class="btn btn-sm btn-outline-primary mt-2"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal4"
+                >
+                  Agregar al carrito
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal4"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">
+                          Producto Agregado con Exito!
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div
+                          class="card mx-auto mt-1 mb-1 col-sm-2"
+                          style="width: 12rem"
+                        >
+                          <img
+                            src="img/elfbar/tripleBerry.png"
+                            class="card-img-top mx-auto mt-3 mb-2"
+                            alt="pod Descartable"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title text-center mb-1">
+                              ELFBAR 4000
+                            </h5>
+                            <p class="card-text text-center precio mb-1">
+                              $8000
+                            </p>
+                            <p class="card-text text-center mt-0">
+                              Descartable de 4000 aspiradas
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Seguir Buscando
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Ir al carrito
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="w-75 mx-auto">
+        <h2 class="text-center mt-5 mb-3">Cigarrillos Electrónicos</h2>
+        <p class="mt-4">
+          Un <strong>cigarrillo electrónico</strong>, también conocido como
+          e-cigarrillo, vapeador o vaporizador, es un dispositivo electrónico
+          que vaporiza una solución líquida (e-líquido) para que el usuario
+          inhale el vapor. Estos dispositivos suelen tener una batería, un
+          atomizador (donde se calienta el líquido) y un cartucho o depósito que
+          contiene el e-líquido. El e-líquido generalmente contiene nicotina,
+          saborizantes, glicerina vegetal y propilenglicol, pero también puede
+          ser sin nicotina.
+        </p>
+        <img
+          src="img/vaporesso-luxe-x.jpg"
+          alt="imagen cigarrillo electronico"
+          class="w-100 mt-3"
+        />
+      </section>
+      <section class="mt-5">
+        <div class="container">
+          <h2 class="text-center">Formulario de Contacto</h2>
+
+          <form>
+            <div class="form-group">
+              <label for="nombre"> Nombre: </label>
+
+              <input
+                type="text"
+                class="form-control"
+                id="nombre"
+                placeholder="Ingrese su nombre"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email"> Email: </label>
+
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Ingrese su email"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="telefono"> Teléfono: </label>
+
+              <input
+                type="tel"
+                class="form-control"
+                id="telefono"
+                placeholder="Ingrese su teléfono"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="comentario"> Comentario: </label>
+
+              <textarea
+                class="form-control"
+                id="comentario"
+                rows="4"
+                placeholder="Ingrese su comentario"
+              ></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn w-25 btn-danger mt-md-3 mt-3">
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="w-75 mx-auto">
+        <h2 class="text-center mt-4 mb-3">Preguntas frecuentes</h2>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                ¿Que es?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <p class="form-control-sm">
+                  Un <strong>cigarrillo electrónico</strong>, también conocido
+                  como e-cigarrillo, vapeador o vaporizador, es un dispositivo
+                  electrónico que vaporiza una solución líquida (e-líquido) para
+                  que el usuario inhale el vapor. Estos dispositivos suelen
+                  tener una batería, un atomizador (donde se calienta el
+                  líquido) y un cartucho o depósito que contiene el e-líquido.
+                  El e-líquido generalmente contiene nicotina, saborizantes,
+                  glicerina vegetal y propilenglicol, pero también puede ser sin
+                  nicotina.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                ¿Que diferencia hay entre un cigarrillo electronico y uno
+                tradicional?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                A diferencia de los cigarrillos tradicionales, los cigarrillos
+                electrónicos no queman tabaco, lo que reduce la exposición a
+                sustancias químicas nocivas presentes en el humo del tabaco. Sin
+                embargo, aún existen preocupaciones sobre la seguridad y los
+                efectos a largo plazo para la salud asociados con el uso de los
+                cigarrillos electrónicos, especialmente en relación con los
+                posibles riesgos para los pulmones y el sistema respiratorio.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                ¿Sirve para dejar de fumar?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Los cigarrillos electrónicos a menudo se han comercializado como
+                una herramienta para ayudar a las personas a dejar de fumar
+                cigarrillos tradicionales. Algunas personas han logrado reducir
+                o dejar de fumar cigarrillos convencionales al utilizar
+                cigarrillos electrónicos como una transición.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark text-white">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <img class="w-25" src="img/foto-curriculum.png" alt="foto alumno" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h3>Nahuel Miño</h3>
+            <p>19 años - 30/06/2004</p>
+            <p><strong>Nahuelbenjamin04@gmail.com</strong></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
